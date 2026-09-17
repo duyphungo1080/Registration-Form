@@ -1,5 +1,5 @@
 body {
-    background-color: #99ccff;
+    background-color: #f0f0f0;
     font-family: "Times New Roman", Times, serif;
     color: #000;
     margin: 0;
@@ -9,9 +9,10 @@ body {
 .main-container {
     width: 500px;
     margin: 0 auto;
+    background-color: #99ccff; /* Tô màu xanh lam riêng cho khu vực chứa bảng form */
+    padding: 20px;
 }
 
-/* Banner logo phía trên */
 .banner {
     background-color: #00ffff;
     border: 2px solid #000;
@@ -53,7 +54,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Bảng căn lề chính */
 .form-table {
     width: 100%;
     border-collapse: collapse;
@@ -79,7 +79,6 @@ input[type="text"], select, textarea {
     box-sizing: border-box;
 }
 
-/* Radio Button màu xanh lá */
 input[type="radio"] {
     accent-color: #008000;
     cursor: pointer;
