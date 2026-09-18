@@ -1,106 +1,113 @@
 body {
-    background-color: #f0f0f0;
-    font-family: "Times New Roman", Times, serif;
-    color: #000;
-    margin: 0;
-    padding: 20px 0;
+    background-color: #f0f0f0;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .main-container {
-    width: 700px; 
-    margin: 10px auto; 
-    background-color: #99ccff;
-    padding: 1px 70px; 
-    box-sizing: border-box;
+    width: 700px; 
+    margin: 10px auto; 
+    background-color: #99ccff;
+    
+    padding: 1px 70px; 
+    
+    box-sizing: border-box;
 }
 
 .banner {
-    background-color: #00ffff;
-    border: 2px solid #000;
-    border-radius: 12px;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
-    width: 240px;
-    text-align: center;
-    padding: 6px 0;
-    margin: 0 auto 10px auto;
+    background-color: #00ffff;
+    border: 2px solid #000;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+    width: 240px;
+    text-align: center;
+    padding: 6px 0;
+    margin: 0 auto 20px auto;
 }
 
 .banner h1 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.1;
-    border-bottom: 4px solid #000;
-    padding-bottom: 2px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-bottom: 4px solid #000;
+    padding-bottom: 2px;
 }
 
 .banner h2 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.1;
-    padding-top: 2px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-top: 2px;
 }
 
 .title {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 6px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
 .subtitle {
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
 .form-table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .form-table td {
-    font-size: 15px;
-    padding: 4px 0;
-    vertical-align: middle;
+    font-size: 15px;
+    
+    padding: 6px 0; 
+    
+    vertical-align: center;
 }
 
 .label-cell {
-    width: 155px;
-    white-space: nowrap;
+    width: 155px;
+    white-space: nowrap;
 }
 
+
 input[type="text"], select, textarea {
-    border: 1px solid #7f9db9;
-    background-color: #ffffff;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    padding: 2px 4px; 
-    box-sizing: border-box;
+    border: 1px solid #7f9db9;
+    background-color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+
+    padding: 2px 4px; 
+    
+    box-sizing: border-box;
 }
 
 input[type="radio"] {
-    accent-color: #008000;
-    cursor: pointer;
+    accent-color: #008000;
+    cursor: pointer;
 }
 
 button {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 13px;
-    background-color: #ece9d8;
-    border: 2px solid;
-    border-color: #ffffff #808080 #808080 #ffffff;
-    padding: 3px 12px;
-    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    background-color: #ece9d8;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    padding: 3px 12px;
+    cursor: pointer;
 }
 
 button:active {
-    border-color: #808080 #ffffff #ffffff #808080;
+    border-color: #808080 #ffffff #ffffff #808080;
 }
 
 hr {
-    border: none;
-    border-top: 2px solid #2d2d2d;
-    margin: 12px 0;
+    border: none;
+    border-top: 2px solid #2d2d2d;
+    margin: 12px 0;
 }
