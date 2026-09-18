@@ -10,9 +10,7 @@ body {
     width: 700px; 
     margin: 10px auto; 
     background-color: #99ccff;
-    
     padding: 1px 70px; 
-    
     box-sizing: border-box;
 }
 
@@ -24,7 +22,7 @@ body {
     width: 240px;
     text-align: center;
     padding: 6px 0;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
 }
 
 .banner h1 {
@@ -48,13 +46,13 @@ body {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .subtitle {
     text-align: center;
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .form-table {
@@ -64,10 +62,8 @@ body {
 
 .form-table td {
     font-size: 15px;
-    
-    padding: 6px 0; 
-    
-    vertical-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
 }
 
 .label-cell {
@@ -75,15 +71,12 @@ body {
     white-space: nowrap;
 }
 
-
 input[type="text"], select, textarea {
     border: 1px solid #7f9db9;
     background-color: #ffffff;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-
     padding: 2px 4px; 
-    
     box-sizing: border-box;
 }
 
