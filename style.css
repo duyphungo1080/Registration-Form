@@ -96,6 +96,7 @@ button {
     border-color: #808080 ;
     padding: 3px 16px;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 button:active {
