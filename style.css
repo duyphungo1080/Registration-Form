@@ -3,16 +3,19 @@ body {
     font-family: "Times New Roman", Times, serif;
     color: #000;
     margin: 0;
-    padding: 20px 0;
+    
+    /* Đã chỉnh padding-top từ 20px xuống 5px để thu nhỏ khoảng trắng phía trên */
+    padding: 5px 0 20px 0;
 }
 
 .main-container {
     width: 700px; 
-    margin: 10px auto; 
+    
+    /* Đã chỉnh margin-top từ 10px xuống 0px để kéo khung xanh sát lên trên */
+    margin: 0 auto 10px auto; 
+    
     background-color: #99ccff;
-    
     padding: 1px 70px; 
-    
     box-sizing: border-box;
 }
 
@@ -64,9 +67,7 @@ body {
 
 .form-table td {
     font-size: 15px;
-    
     padding: 6px 0; 
-    
     vertical-align: middle;
 }
 
@@ -75,15 +76,12 @@ body {
     white-space: nowrap;
 }
 
-
 input[type="text"], select, textarea {
     border: 1px solid #7f9db9;
     background-color: #ffffff;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-
     padding: 2px 4px; 
-    
     box-sizing: border-box;
 }
 
